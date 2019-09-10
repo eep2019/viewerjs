@@ -13,7 +13,7 @@
   typeof define === 'function' && define.amd ? define(factory) :
   (global = global || self, global.Viewer = factory());
 }(this, function () { 'use strict';
-
+  console.log('eep');
   function _typeof(obj) {
     if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") {
       _typeof = function (obj) {
